@@ -10,6 +10,7 @@ app.use(bodyparser.urlencoded({ extended: true }));
 
 app.get('/form', function(req, res) {
     res.send("The get route is working");
+    console.log(req.body);
 })
 
 app.post('/form', function(req, res) {
@@ -23,4 +24,4 @@ app.post('/form', function(req, res) {
     res.write("This is the body of the request");
     res.write(JSON.stringify(req.body, null, "  "));
     res.end();
-})
+});
