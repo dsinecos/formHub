@@ -5,7 +5,7 @@ require('dotenv').config();
 
 var app = express();
 
-var PORT = 2348;
+var PORT = process.env.PORT || 2348;
 app.listen(PORT);
 
 var api_key = process.env.MAILGUN_API_KEY;

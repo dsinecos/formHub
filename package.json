@@ -10,9 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "mailgun-js": "^0.11.2",
-    "nodemailer": "^4.0.1",
-    "nodemailer-smtp-transport": "^2.7.4",
-    "sendgrid": "^5.1.2"
+    "mailgun-js": "^0.11.2"
+  },
+  "engines": {
+    "node": "6.10.1"
   }
 }
