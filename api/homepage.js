@@ -1,4 +1,5 @@
+var path = require('path');
+
 module.exports = function (req, res) {
-    res.send("The get route is working");
-    console.log(req.body);
+    res.sendFile('theFormHub.html', { root: path.resolve(__dirname, '../views')});
 }
