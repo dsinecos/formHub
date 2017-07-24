@@ -40,7 +40,7 @@ module.exports = function (req, res, next) {
     }).catch(function (error) {
         console.log(error);
         
-        res.status(500).write("Error");
+        res.status(502).write("Bad Gateway");
         res.end();
     });
 

@@ -20,19 +20,47 @@
 
     <!-- Navbar -->
     <ul>
-        <li>FAQ</li>
-        <li>Sign Up</li>
-        <li>Login</li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Sign up</a></li>
+        <li><a href="#">Login</a></li>
     </ul>
-    <!-- Title -->
-    <h1> theFormHub </h1>
-    <!-- Code snippet image -->
-    <img src="./formHubImage.png" alt="Code Snippet example">
-    <!-- Message -->
-    <h4> Send your form submissions to our URL and receive them on your email</h4>
+
+    <div class="container-fluid">
+
+        <!-- Title -->
+        <h1> theFormHub </h1>
+        <!-- Code snippet image -->
+        <img src="./formHubImage.png" alt="Code Snippet example">
+        <!-- Message -->
+        <h4> Send your form submissions to our URL and receive them on your email</h4>
+
+    </div>
+
 
 </body>
 
 <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #389;
+        overflow: hidden;
+    }
 
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #aaa;
+    }
 </style>
